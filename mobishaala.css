@@ -1,0 +1,223 @@
+/*for mobile devices first container*/
+
+@media(orientation:portrait) {
+    .container-1-mobile {
+        background-image: url('https://img.freepik.com/premium-photo/christmas-new-year-winter-seamless-pattern-background-gift-paper_1028035-1761.jpg?w=1060');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .video-container-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .span-ele-1 {
+        color: #ebd534;
+    }
+
+    img {
+        /*apply for all the image elements*/
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .span-ele-2 {
+        color: #ebd534;
+    }
+
+    .buy-btn {
+        background-color: red;
+        border: 0px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 14px;
+    }
+
+    .start-btn {
+        background-color: red;
+        border: 0px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 14px;
+    }
+
+    .download-btn {
+        background-color: red;
+        border: 0px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 14px;
+    }
+
+    button {
+        /*apply for all the button elements*/
+        font-family: 'Roboto';
+    }
+
+    p {
+        /*apply for all the paragraph elements*/
+        font-family: "Roboto";
+    }
+
+    a {
+        /*apply for all the anchor elements*/
+        color: white;
+    }
+
+    .talk-to-us-container {
+        display: flex;
+        flex-direction: row;
+        background-color: #0dbd1c;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .container-1-laptop {
+        display: none;
+    }
+}
+
+/*for laptop device first container*/
+
+@media(min-width:768px) {
+    .container-1-mobile {
+        display: none;
+    }
+
+    .container-1-laptop {
+        background-image: url('https://img.freepik.com/premium-photo/christmas-new-year-winter-seamless-pattern-background-gift-paper_1028035-1761.jpg?w=1060');
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .video-container-laptop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .span-ele-1 {
+        color: #ebd534;
+    }
+
+    .span-ele-2 {
+        color: #ebd534;
+    }
+
+    .buy-btn {
+        background-color: red;
+        border: 0px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 14px;
+    }
+
+    a {
+        color: white;
+    }
+
+    .start-btn {
+        background-color: red;
+        border: 0px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 14px;
+    }
+
+    .download-btn {
+        background-color: red;
+        border: 0px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 14px;
+    }
+
+    button {
+        font-family: 'Roboto';
+    }
+
+    p {
+        font-family: "Roboto";
+        color: white;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .talk-to-us-container {
+        display: flex;
+        flex-direction: row;
+        background-color: #0dbd1c;
+        border-radius: 10px;
+        padding: 5px;
+        width: 180px;
+    }
+
+    .container-2-mobile {
+        display: none;
+    }
+
+    .company-name-heading {
+        color: #ffffff;
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Roboto';
+    }
+
+}
+
+@media(max-width:767px) {
+    .company-name-heading {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/*for mobile device second container */
+
+@media(orientation:portrait) {
+
+    .container-2-mobile {
+        background-color: #e31e3e;
+        padding: 10px;
+    }
+
+    h3 {
+        color: #ffffff;
+    }
+
+    p {
+        color: #ffffff;
+    }
+
+    span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .company-name-heading {
+        color: #ffffff;
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Roboto';
+    }
+}
